@@ -39,14 +39,32 @@
         }
       } */
 
-      /*L7 Logical operators */
+      /*L7 Logical operators
       let country = prompt("What Country are you from?").toLowerCase();
 
       if (country === "brazil" || country === "portugal") {
         alert("You speak Portuguese");
       } else {
         alert("You don't speak Portuguese");
-      }
+      } */
+
+      /*L8 JS functions
+      Create a function canSpeakPortuguese
+      From inside the function, ask for the user's country
+      Alert ‘You speak Portuguese’ if from Brazil or Portugal
+      Alert ‘Go learn Portuguese!’ otherwise
+      Call the function
+      */
+
+      let canSpeakPortuguese = function () {
+        let country = prompt("What Country are you from?").toLowerCase();
+        if (country === "brazil" || country === "portugal") {
+          alert("You speak Portuguese");
+        } else {
+          alert("Go learn Portuguese!");
+        }
+      };
+      canSpeakPortuguese();
     </script>
   </body>
 </html>
