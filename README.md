@@ -1,2 +1,2 @@
 # scw2
- SheCodes week2 practice
+ shecodes week2 practice
